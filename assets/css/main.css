@@ -1118,7 +1118,7 @@ body {
 ==================================================================*/
 
 .kontakt-title {
-  font-size: 2em;
+  font-size: 2.4em;
   color: #fff;
   margin-top: -2em;
   margin-bottom: 1em;
@@ -1176,6 +1176,42 @@ body {
   position: relative;
   margin: 0 auto;
   margin-right: 0px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
+}
+
+.map-container {
+  max-width: 855px;
+  height: 440px;
+  width: 100%;
+}
+
+.address-wrapper {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+.address-wrapper h2 {
+  font-size: 1em;
+  padding-top: 75px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+.address-wrapper p {
+  display: block;
+  padding-top: 10px;
+}
+.address-wrapper a {
+  display: inline-block;
+  font-size: 0.94rem;
+  color: #ffffff;
+}
+
+.map-address:nth-child(1) {
+  padding-right: 3em;
 }
 
 #map {
@@ -1630,6 +1666,10 @@ body {
 
     margin: 0 auto;
     margin-bottom: 2em;
+  }
+
+  .address-wrapper {
+    display: none;
   }
 
   /*=================================================================
