@@ -90,23 +90,13 @@
 				  />
 				</a>
 
-				<nav class="menu">
+				<nav class="menu loggad-menu">
 				  <ul>
 					<li>
-					  <a href="./om-infotrader.html">OM INFOTRADER</a
+					  <a href="#">HJÄLP</a
 					  ><span>&nbsp;</span>
 					</li>
-					<li><a href="./contact.html">KONTAKT</a><span>&nbsp;</span></li>
-					<li class="active register">
-					  <a href="https://aspx.infotrader.se/avtal/?&service=startselect"
-						>BLI <br />
-						KUND</a
-					  ><span>&nbsp;</span>
-					</li>
-					<li>
-					  <a href="#" class="open-modal">LOGGA IN</a><span>&nbsp;</span>
-					</li>
-					<li><a href="#">HEM</a><span>&nbsp;</span></li>
+					<li><a href="#">LOGGA UT</a><span>&nbsp;</span></li>
 				  </ul>
 				</nav>
 
@@ -144,16 +134,36 @@
 			</div>
 		</header>
 
-		<main id="main">
+	<main id="main">
         <div class="page-container">
-
 			<div class="search-fastighet">
-				<h3>FASTIGHET</h3>
-				<input type="text" name="search" id="address">
-			</div>
 
+				<div class="sok-tips-container">
+					<button class="sok-tips open-popup">SÖK TIPS</button>
+					<div class="sok-tips-popup">
+						<h2>SÖK TIPS</h2><br>
+						<p>Vid sökning på adress kan du ange antingen postnummer eller postort i sökfältet.
+							Ange enligt ex: Granvägen 4, 70221 eller Granvägen 4, Örebro</p><br>
+						<p>Koordinater anges enligt 6228747.1;533225.6 (North;East)
+							Även RT90 kan anges enligt X;Y</p><br>
+						<p>För att söka med Övriga sökbegrepp ska fältet ”Beteckning/Adress/…” lämnas tomt. 
+							Vid sökning med orgnr eller persnr hämtas fastighetslista med automatik.
+							Vid sökning med personnr ska sekelsiffran alltid anges.</p><br>
+						<p>VVid sökning med aktnr hämtas den digitala akten alternativt kan du söka efter InfoRätt.
+							Anger du ett namn söker vi efter bolag och samfällighetsföreningar.</p>
+						<p>Håller du musen över Du ska inte klicka… i fastighetssvaren visas en kort information om innehållet.</p><br>
+						<button class="popup-close">OK</button>
+					</div>
+				</div>
+
+				<div class="search-fastighet-container">
+					<h3>FASTIGHET</h3>
+					<input type="text" name="search" id="address">
+				</div>
+
+			</div>
         </div>
-      </main>
+    </main>
 
 	  <footer id="footer">
         <!--<div class="main-max-fix">

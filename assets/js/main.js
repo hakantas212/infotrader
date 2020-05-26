@@ -37,6 +37,11 @@ ns = {
 			$('#header').addClass('active');
 		})
 		
+		$('body').on('click', '.mobile-menu-fastighet', function(e){
+			e.preventDefault();
+			$('#header').addClass('active');
+		})
+		
 		
 		$('body').on('click', '.ico', function(e){
 			e.preventDefault();
@@ -54,6 +59,17 @@ ns = {
 			e.preventDefault();
 			$('.lightbox-wrapper').removeAttr('style');
 			$('.slide').removeAttr('style');
+		})
+
+		$('body').on('click', '.open-popup', function(e){
+			e.preventDefault();
+			$('.sok-tips-popup').css({'display':'block'})
+		})
+
+		$('.popup-close').on('click', function(e){
+			e.preventDefault();
+			$('.sok-tips-popup').css({'display':'none'})
+			
 		})
 		 
 		

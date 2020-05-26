@@ -590,6 +590,10 @@ body {
   width: 73%;
   height: 100%;
 }
+
+.loggad-menu {
+  width: 100% !important;
+}
 .menu ul {
   height: 100%;
   display: -ms-flexbox;
@@ -1220,7 +1224,55 @@ body {
   width: 100% !important;
 }
 
+/*=================================================================
+	SEARCH FASTIGHET
+==================================================================*/
+.search-fastighet {
+    background: #40415a url(../images/bgvfcdsdfg.jpg) no-repeat 0 0;
+    background-size: cover;
+    min-height: 840px;
+}
 
+
+.search-fastighet-container {
+  background-color: #41415B;
+  min-height: 275px;
+  max-height: 100%;
+  color: #fff;
+}
+
+.sok-tips-container {
+  padding: 2em 0 0.5em 0;
+  position: relative;
+}
+.sok-tips {
+  width: 100%;
+  max-width: 150px;
+  height: 50px;
+  background-color: #E9A365;
+  cursor: pointer;
+  border: none;
+  -webkit-box-shadow: 3px 4px 23px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 23px -7px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 23px -7px rgba(0,0,0,0.75);
+}
+
+.sok-tips-popup {
+  background-color: #e9a365;
+  border-radius: 1rem;
+  position: absolute;
+  display: none;
+  max-width: 800px;
+  max-height: 800px;
+  margin: 0 auto;
+  padding: 1em 5em;
+  z-index: 9999;
+  top: 250%;
+  left: 50%;
+  border: 1px solid #000;
+  transform: translate(-50%, -25%);
+  
+}
 
 /*=================================================================
 	PERSON
