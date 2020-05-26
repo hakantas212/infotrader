@@ -591,8 +591,22 @@ body {
   height: 100%;
 }
 
-.loggad-menu {
-  width: 100% !important;
+.menu-logged-in {
+      display: block;
+      position: absolute;
+      right: 21px;
+      height: 175%;
+      top: 0;
+      padding: 10px 10px 50px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background: #e9a365;
+      color: #000000;
+      -moz-transition: all 0.3s ease-in 0s;
+      -webkit-transition: all 0.3s ease-in 0s;
+      -o-transition: all 0.3s ease-in 0s;
+      -ms-transition: all 0.3s ease-in 0s;
+      transition: all 0.3s ease-in 0s;
 }
 .menu ul {
   height: 100%;
@@ -602,10 +616,24 @@ body {
   justify-content: center;
   align-items: center;
 }
+.menu-logged ul {
+  height: 100%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10em;
+}
 .menu ul li {
   position: relative;
   height: 100%;
   padding-top: 55px;
+  margin: 0 10px;
+}
+.menu-logged ul li {
+  position: relative;
+  height: 100%;
   margin: 0 10px;
 }
 .menu ul li a {
@@ -679,13 +707,14 @@ body {
   transition: all 0.3s ease-in 0s;
 }
 
-.mobile-menu .ico {
+.ico {
   display: block;
   width: 40px;
   margin: 15px auto 0;
 }
-.mobile-nav .ico i,
-.mobile-menu .ico i {
+
+ .ico i,
+.ico i {
   display: block;
   width: 100%;
   height: 1px;
