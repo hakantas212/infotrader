@@ -160,6 +160,12 @@ max-height: 100%;
 color: #fff;
 }
 
+.search-fastighet-container h1 {
+  font-size: 1.75em;
+  padding-top: 1.5em;
+  padding-left: 2em;
+}
+
 .sok-tips-container {
 padding: 2em 0 0.5em 0;
 position: relative;
@@ -224,7 +230,7 @@ transform: translate(-50%, -25%);
     cursor: pointer;
 }
 
-.input-container {
+.form-group {
   display: flex;
   flex-direction: column;
   padding: 0.5em;
@@ -233,24 +239,28 @@ transform: translate(-50%, -25%);
 .sokform {
   display: flex;
   justify-content: center;
-  padding: 3em;
+  padding: 1em;
 }
 
 input, select {
   color: #000 !important;
+  padding: 5px;
+  
 }
-
+.second-search-section input, select {
+  float: right;
+  width: 142px;
+}
 .button-container {
   display: flex;
   flex-direction: column;
-  padding-top: 1.8em;
 }
 
 .button-container input {
   margin-bottom: 0.7em;
 }
 
-.second-search-section input, select {
-  width: 100px;
- 
+
+.form-group span {
+  padding-right: 1em;
 }
