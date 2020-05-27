@@ -37,7 +37,7 @@ ns = {
 			$('#header').addClass('active');
 		})
 		
-		$('body').on('click', '.mobile-menu-fastighet', function(e){
+		$('body').on('click', '.services-menu', function(e){
 			e.preventDefault();
 			$('#header').addClass('active');
 		})
