@@ -190,7 +190,12 @@ top: 250%;
 left: 50%;
 border: 1px solid #000;
 transform: translate(-50%, -25%);
+}
 
+.sok-tips-popup h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 1em;
 }
 
 .popup-close {
@@ -202,13 +207,50 @@ transform: translate(-50%, -25%);
   border-radius: 1em;
   border-style: none;
   border: 1px solid #000;
-  /* -webkit-box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.75); */
-  -moz-box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.75);
-  /* box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.75); */
   -webkit-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
   box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
   cursor: pointer;
-
 }
 
+.search-button {
+    width: 138px;
+    height: 34px;
+    color: #000;
+    background: #E9A365;
+    border-style: none;
+    border-radius: 1em;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.sokform {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+input, select {
+  color: #000 !important;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.8em;
+}
+
+.button-container input {
+  margin-bottom: 0.7em;
+}
+
+.second-search-section input, select {
+  width: 100px;
+ 
+}
