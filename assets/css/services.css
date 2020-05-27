@@ -245,8 +245,11 @@ transform: translate(-50%, -25%);
 input, select {
   color: #000 !important;
   padding: 5px;
-  
+  border-radius: 13px;
+  width: 100%;
+  margin-bottom:0.4em
 }
+
 .second-search-section input, select {
   float: right;
   width: 142px;
@@ -257,10 +260,11 @@ input, select {
 }
 
 .button-container input {
-  margin-bottom: 0.7em;
+  
 }
 
 
 .form-group span {
   padding-right: 1em;
+  padding-bottom: 0.5em;
 }
