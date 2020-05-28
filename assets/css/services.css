@@ -149,7 +149,7 @@
 .search-fastighet {
   background: #40415a url(../images/bgvfcdsdfg.jpg) no-repeat 0 0;
   background-size: cover;
-  min-height: 840px;
+  min-height: 450px;
 }
 
 
@@ -196,12 +196,14 @@ top: 250%;
 left: 50%;
 border: 1px solid #000;
 transform: translate(-50%, -25%);
+font-family: "marionregular", sans-serif;
 }
 
 .sok-tips-popup h2 {
   font-weight: normal;
   font-size: 1.2em;
   margin-bottom: 1em;
+  font-family: "dinregular", sans-serif !important;
 }
 
 .popup-close {
@@ -228,6 +230,7 @@ transform: translate(-50%, -25%);
     border-radius: 1em;
     border: 1px solid #000;
     cursor: pointer;
+    font-family: "dinregular", sans-serif !important;
 }
 
 .form-group {
@@ -242,29 +245,85 @@ transform: translate(-50%, -25%);
   padding: 1em;
 }
 
+form#sok_form input, select {
+  margin-top: 0.4em;
+  font-family: "marionregular", sans-serif;
+}
+
 input, select {
   color: #000 !important;
   padding: 5px;
   border-radius: 13px;
   width: 100%;
-  margin-bottom:0.4em
+  margin-bottom:0.4em;
+  border: 1px solid #000;
 }
 
-.second-search-section input, select {
+/* .second-search-section input, select {
   float: right;
   width: 142px;
+} */
+
+.second-search-section span {
+  margin-top: -10px !important;
 }
+
 .button-container {
   display: flex;
   flex-direction: column;
-}
-
-.button-container input {
-  
+  margin-top: 15px;
 }
 
 
 .form-group span {
   padding-right: 1em;
-  padding-bottom: 0.5em;
 }
+
+/*=================================================================
+	SIDEBAR  SÖK HISTORIK / SUBCATEGORIES
+==================================================================*/
+
+.side-bar {
+  background-color: #40415a ;
+  color: #fff;
+  width: 20%;
+  position: absolute;
+  height: 100%;
+
+}
+
+.sok-historik-container {
+  padding: 1em;
+}
+
+.sok-historik {
+  max-width: 400px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #fff;
+  border-radius: 1em;
+  border: 1px solid #000;
+}
+
+.sok-historik-container h2 {
+  padding-bottom: 0.4em;
+}
+
+.second-section {
+  width: 100%;
+  height: 100%;
+}
+
+/*=================================================================
+	SEARCH RESULT
+==================================================================*/
+
+.search-result {
+  width: 80%;
+  background-color: azure;
+  margin-left: 20%;
+  height: 800px;
+}
+
+
+

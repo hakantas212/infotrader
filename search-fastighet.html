@@ -184,6 +184,19 @@
 				</div>
 
 			</div>
+			<section class="second-section">
+			<div class="side-bar">
+				<div class="sok-historik-container">
+					<h2>Sök Historik:</h2>
+					<div class="sok-historik">
+						
+					</div>
+				</div>
+			</div>
+			<div class="search-result">
+				<h1>SEARCH RESULT</h1>
+			</div>
+			</section>
     </main>
 
 	  <footer id="footer">
@@ -274,27 +287,5 @@
     <script type="text/javascript" src="assets/js/pace.min.js" defer></script>
 	<script type="text/javascript" src="assets/js/main.js" defer></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQxVV5EVdS03vKmhug3Cstbk_AU3zkkIQ&amp;callback=initMap" async="" defer=""></script>
-	<script>
-		function initMap() {
-				var latlng = {lat: 56.1946969, lng: 15.284636299999988};
-				var mapDiv = document.getElementById('map');
-				var map = new google.maps.Map(mapDiv, {
-					center: latlng,
-					zoom: 15
-				});
-				var contentString = '<h6>InfoTrader</h6><p>Direktörspromenaden 3</p><p>372 36 Ronneby</p>'
-				var infowindow = new google.maps.InfoWindow({
-				content: contentString
-				});
-				var marker = new google.maps.Marker({
-				position: latlng,
-				map: map,
-				title: 'Här finns vi!'
-				});
-				marker.addListener('click', function() {
-				infowindow.open(map, marker);
-				});
-			}
-	</script>
   </body>
 </html>
