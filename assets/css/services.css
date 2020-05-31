@@ -149,25 +149,22 @@
 .search-fastighet {
   background: #40415a url(../images/bgvfcdsdfg.jpg) no-repeat 0 0;
   background-size: cover;
-  min-height: 450px;
 }
 
 
 .search-fastighet-container {
 background-color: #41415B;
-min-height: 275px;
-max-height: 100%;
+max-height: 300px;
 color: #fff;
 }
 
 .search-fastighet-container h1 {
   font-size: 1.75em;
-  padding-top: 1.5em;
-  padding-left: 2em;
+  margin-top: 1em;
 }
 
 .sok-tips-container {
-padding: 2em 0 0.5em 0;
+padding: 1.1em 0 0.5em 0;
 position: relative;
 }
 .sok-tips {
@@ -242,7 +239,7 @@ font-family: "marionregular", sans-serif;
 .sokform {
   display: flex;
   justify-content: center;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 form#sok_form input, select {
