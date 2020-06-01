@@ -590,8 +590,6 @@ body {
   width: 73%;
   height: 100%;
 }
-
-
 .menu ul {
   height: 100%;
   display: -ms-flexbox;
@@ -600,14 +598,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .menu ul li {
   position: relative;
   height: 100%;
   padding-top: 55px;
   margin: 0 10px;
 }
-
 .menu ul li a {
   position: relative;
   font-size: 1rem;
@@ -679,14 +675,13 @@ body {
   transition: all 0.3s ease-in 0s;
 }
 
-.ico {
+.mobile-menu .ico {
   display: block;
   width: 40px;
   margin: 15px auto 0;
 }
-
- .ico i,
-.ico i {
+.mobile-nav .ico i,
+.mobile-menu .ico i {
   display: block;
   width: 100%;
   height: 1px;
@@ -920,13 +915,13 @@ body {
   -moz-transform: translate(-50%, -50%);
   background-color: #ffffff;
 }
-.slide-text div div h2 {
+.slide-text div div h1 {
   font-size: 2.5rem;
   line-height: 3.25rem;
   font-weight: bold;
   padding-right: 20px;
 }
-.slide-text div div h2::before {
+.slide-text div div h1::before {
   content: "";
   position: absolute;
   right: -15%;
@@ -1226,8 +1221,9 @@ body {
 }
 
 
+
 /*=================================================================
-	PERSON
+	SUB PAGES
 ==================================================================*/
 
 .person .page-detail {
@@ -1237,11 +1233,11 @@ body {
   width: 130%;
   padding: 10% 0 15% 15%;
 }
-.person .slide-text div div h2 {
+.person .slide-text div div h1 {
   font-size: 3.75rem;
   line-height: 4.25rem;
 }
-.person .slide-text div div h2::before {
+.person .slide-text div div h1::before {
   width: 85%;
   height: 11px;
   bottom: 20%;
@@ -1256,6 +1252,9 @@ body {
   width: 114%;
   float: right;
   z-index: 3;
+}
+.ingress {
+	font-family: "marionregular", sans-serif;
 }
 
 .person .text-container {
@@ -1332,7 +1331,7 @@ body {
   z-index: -1;
 }
 
-.ominfotrader .slide-text div div h2 {
+.ominfotrader .slide-text div div h1 {
   font-size: 3.75rem;
   line-height: 4rem;
 }
@@ -1523,7 +1522,7 @@ body {
   .ominfotrader .text-container div {
     padding: 100px 75px;
   }
-  .slide-text div div h2 {
+  .slide-text div div h1 {
     font-size: 2rem;
     line-height: 2.4rem;
   }
@@ -1604,16 +1603,72 @@ body {
     font-size: 1.5rem;
   }
 }
+@media screen and (max-height: 900px) {
+  .slide {
+    padding-bottom: 15px;
+  }
+}
+  /*=================================================================
+	HERO IMAGE PADDING MODIFICATION FOR DIFFERENT SCREEN SIZES
+  ==================================================================*/
+  
 @media screen and (max-height: 800px) {
   .slide {
     padding-bottom: 15px;
   }
 }
-@media screen and (min-height: 1101px) {
+@media screen and (min-height: 1000px) {
+  .slide {
+    padding-bottom: 180px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1550px) {
+  .slide {
+    padding-bottom: 300px;
+  }
+}
+
+@media (min-height: 768px) and (min-height: 999px) {
   .slide {
     padding-bottom: 200px;
   }
 }
+
+@media screen and (min-height: 768px) , screen and (min-height: 999px) {
+  .slide {
+    padding-bottom: 200px;
+  }
+}
+
+@media screen and (min-height: 1000px) , screen and (min-height: 1080px) {
+  .slide {
+    padding-bottom: 150px;
+  }
+}
+
+@media screen and (min-height: 1100px) , screen and (min-height: 1201px) {
+  .slide {
+    padding-bottom: 260px;
+  }
+}
+
+@media screen and (min-height: 1500px) {
+  .slide {
+    padding-bottom: 500px;
+  }
+
+  .slide-img{
+    width: 100%;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1650px) {
+  .slide {
+    padding-bottom: 100px;
+  }
+}
+
 
 @media screen and (max-width: 1185px) {
   .section-list-container::before {
@@ -1696,7 +1751,7 @@ body {
   .slide-text img {
     width: 40px;
   }
-  .slide-text h2 {
+  .slide-text h1 {
     font-size: 2rem;
   }
   .slide-text h2:before {
@@ -1709,7 +1764,7 @@ body {
     width: 135%;
     padding: 10% 5% 15% 0;
   }
-  .slide-text div div h2 {
+  .slide-text div div h1 {
     padding-right: 0;
   }
 
@@ -1754,8 +1809,8 @@ body {
   .person .slide-text div div {
     padding-left: 0;
   }
-  .ominfotrader .slide-text div div h2,
-  .person .slide-text div div h2 {
+  .ominfotrader .slide-text div div h1,
+  .person .slide-text div div h1 {
     font-size: 3rem;
     line-height: 3.5rem;
   }
@@ -1838,10 +1893,10 @@ body {
   .slide-text div div {
     width: 150%;
   }
-  .slide-text div div h2 {
+  .slide-text div div h1 {
     font-size: 2rem;
   }
-  .slide-text div div h2::before {
+  .slide-text div div h1::before {
     bottom: 12%;
     height: 6px;
   }
@@ -1957,7 +2012,7 @@ body {
   .slide {
     padding-bottom: 70px;
   }
-  .slide-text div div h2 {
+  .slide-text div div h1 {
     font-size: 1.5rem;
   }
   .slide-text div div h2::before {
@@ -2180,7 +2235,7 @@ body {
     -webkit-transform: none;
     -moz-transform: none;
   }
-  .slide-text div div h2 {
+  .slide-text div div h1 {
     color: #ffffff;
   }
   .slide-text div div h2::before {
@@ -2297,8 +2352,8 @@ body {
     bottom: 12%;
   }
 
-  .person .slide-text div div h2,
-  .ominfotrader .slide-text div div h2 {
+  .person .slide-text div div h1,
+  .ominfotrader .slide-text div div h1 {
     font-size: 2.6rem;
   }
 
@@ -2460,8 +2515,3 @@ body {
   font-weight: bold;
 }
 /*Slut Avtalsregistrering*/
-
-#map {
-  height: 300px;
-  width: 320px;
-}
