@@ -40,12 +40,20 @@ ns = {
 		$('body').on('click', '.services-menu', function(e){
 			e.preventDefault();
 			$('#header').addClass('active');
+			$('#header').removeClass('menu-list');
+
+		})
+		$('body').on('click', '.help-menu', function(e){
+			e.preventDefault();
+			$('#header').addClass('menu-list');
+			$('#header').removeClass('active');
 		})
 		
 		
 		$('body').on('click', '.ico', function(e){
 			e.preventDefault();
 			$('#header').removeClass('active');
+			$('#header').removeClass('menu-list');
 		})
 		
 		
@@ -71,7 +79,6 @@ ns = {
 			$('.sok-tips-popup').css({'display':'none'})
 			
 		})
-		 
 		
 		
 		
