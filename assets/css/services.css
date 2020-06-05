@@ -419,7 +419,10 @@ input, select {
 }
 
 
-
+.ie-flexbox-support {
+  display: flex;
+  flex-direction: column;
+}
 
 
 /*=================================================================
