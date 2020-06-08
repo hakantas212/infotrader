@@ -446,9 +446,8 @@ input, select {
   max-width: 400px;
   width: 100%;
   min-height: 200px;
-  background-color: #fff;
   border-radius: 1em;
-  border: 1px solid #000;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .sok-historik-container h2 {
@@ -494,7 +493,7 @@ input, select {
   text-decoration: none;
   color: #fff;
   padding: 0.4em 1em;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
 }
 
 .category-list-items ul {
