@@ -490,5 +490,26 @@ input, select {
     padding: 110px 0;
 }
 
+.sidebar-category li a  {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.4em 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.category-list-items ul {
+  padding: 1em;
+}
+
+.sidebar-category {
+
+  padding: 1em;
+  border-bottom: 1px solid #fff;
+}
+
+.sidebar-category h2 {
+  padding-top: 1em;
+  padding-left: 1em ;
+}
 
 
